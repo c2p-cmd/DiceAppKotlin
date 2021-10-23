@@ -25,8 +25,15 @@
       <VBox prefHeight="100.0" prefWidth="200.0" GridPane.columnSpan="2" GridPane.rowIndex="1">
          <children>
             <ComboBox fx:id="diceComboBox" prefWidth="210.0" promptText="Choose number of dice." translateX="100.0" translateY="35.0" />
-             <ImageView fx:id="diceDisplayArea" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" translateX="135.0" translateY="55.0" />
-            <Label fx:id="previousNumberLabel" text="Previous: N/A" translateX="150.0" translateY="65.0">
+            <HBox prefHeight="150.0" translateY="66.0">
+               <children>
+                  <ImageView fx:id="diceDisplayAreaLeft" fitHeight="137.5" fitWidth="137.5" translateX="3.0" />
+                  <ImageView fx:id="diceDisplayAreaMid" fitHeight="137.5" fitWidth="137.5"  translateX="2.0" />
+                  <ImageView fx:id="diceDisplayAreaRight" fitHeight="137.5" fitWidth="137.5" />
+               </children>
+            </HBox>
+             
+            <Label fx:id="previousNumberLabel" text="Previous: N/A" translateX="150.0" translateY="81.0">
                 <font>
                     <Font name="SF UI Text Regular" size="15.0" />
                 </font>
