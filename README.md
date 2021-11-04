@@ -8,4 +8,5 @@ This is my attempt at making a Dice Roller in Kotlin using JavaFX. Hope you enjo
 
 ## Screen Capture:
 ### Basic Demo of App
-![DiceRollerScreenCap](https://user-images.githubusercontent.com/60012248/138109477-5872bb2b-97ed-4c2c-8270-3e00b1a0dafd.gif)
+https://user-images.githubusercontent.com/60012248/138567177-45768d7f-d430-48f0-b4d8-3a09dbafa5a4.mp4
+
